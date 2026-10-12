@@ -62,7 +62,7 @@ The mod can be configured:
 ## 🔨 Building from Source
 
 ```bash
-git clone https://github.com/<your-username>/psychosis.git
+git clone https://github.com/Durhol/psychosis.git
 cd psychosis
 ./gradlew build   # or gradlew.bat build on Windows
 ```
