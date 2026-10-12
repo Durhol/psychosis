@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "psychosis",
+  "version": "${version}",
+  "name": "Psychosis",
+  "description": "An analogue psycho-horror overlay mod with shaky red frames, angled arrows, and trembling Impact-font annotations.",
+  "authors": [
+    "Durhol (TG: @tyxap or @Durhol)"
+  ],
+  "contact": {
+    "telegram": "https://t.me/tyxap"
+  },
+  "license": "MIT",
+  "icon": "assets/psychosis/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "net.modder.psychosis.PsychosisMod"
+    ],
+    "client": [
+      "net.modder.psychosis.PsychosisClient"
+    ],
+    "modmenu": [
+      "net.modder.psychosis.config.ModMenuIntegration"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
